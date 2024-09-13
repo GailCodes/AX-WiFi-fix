@@ -1,0 +1,3 @@
+touch /etc/modprobe.d/iwlwifi.conf
+echo "options iwlwifi disable_11ax=Y" >> /etc/modprobe.d/iwlwifi.conf 
+echo "All done! Reboot for the changes to take effect"
